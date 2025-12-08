@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef BINARY_TREES_H
+#define BINARY_TREES_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -31,4 +31,4 @@ typedef struct binary_tree_s heap_t;
 
 /* Fonction Portotype*/
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
-#endif /* MAIN_H */
+#endif /* BiINARY_TREES */
