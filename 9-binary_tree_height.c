@@ -6,7 +6,7 @@
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
-	int treeheight = 0;
+	int treeheight = 1;
 
 	/*sum of branch left + sum of branch right*/
 	treeheight = binary_tree_height(tree->left) + binary_tree_height(tree->right);
